@@ -1,0 +1,21 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+::selection {
+	color: #fff;
+	background-color: $color-primary;
+}

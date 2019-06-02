@@ -1,3 +1,11 @@
-body {
-	background-color: #36ee;
-}
+// index for the styles
+
+@import "./abstracts/variables.scss";
+
+@import "./base/base.scss";
+@import "./base/typography.scss";
+
+@import "./layout/footer.scss";
+@import "./layout/navbar.scss";
+
+@import "./components/search.scss";
